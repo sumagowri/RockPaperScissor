@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+:root{
+    --text-color:#1c2042;
+    --background-color:#1fd1f9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background-color: var(--background-color);
+    background-image: linear-gradient(315deg,var(--background-color) 0%,#b621fe 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: var(--text-color);
+}
+
+/* .afterres{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    background-color: white;
+    box-shadow: 5px 15px 20px #b621fe;
+}
+
+.afterres p{
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.game-restart button{
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    background-color: #b621fe;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+} */
+
+main{
+    height: 30rem;
+    width: 35rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 2px rgba(255,255,255,0.95);
+    /* box-shadow: 20px 20px 60px rgba(91,13,22,0.1),-20px -20px 60px rgba(123.17,29,0.15); */
+    padding: 2rem;
+}
+
+header{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+header h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+header p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.hands{
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.hands button{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    font-size: 5rem;
+    background-color: #b621fe;
+    color: white;
+    border : 0;
+    cursor: pointer;
+    transition: all 0.2s ease ;
+}
+
+.hands button:hover{
+    transform: translateY(5px);
+}
+
+.hands button:hover:active{
+    transform: scale(1.1);
+}
+
+.result{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.result button{
+    padding: 0.5rem 1.5rem;
+    background-color: #b621fe;
+    color: white;
+    width: 60%;
+    font-style: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+.game-result p{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.game-result div{
+    padding: 0.5rem 1.5rem; 
+    height: 2rem;
+    background-color: #b621fe;
+    color: white;
+    width: 60%;
+    margin : 1rem auto;
+    font-style: 1.4rem;
+    font-weight: bold;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}
